@@ -1,10 +1,11 @@
 package application.cryptojavafx;
-import application.cryptojavafx.ciphers.*;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
+import application.cryptojavafx.ciphers.*;
+
 
 public class encryption {
     public encryption(String plaintextPath, String ciphertextPath, String[] key, int TypeEn, char cipherway){

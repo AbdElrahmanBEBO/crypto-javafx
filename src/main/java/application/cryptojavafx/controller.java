@@ -131,12 +131,3 @@ public class controller implements Initializable {
     }
 }
 
-class Ciphers {
-    int id;
-    String name;
-
-    Ciphers(int id, String name){
-        this.id = id;
-        this.name = name;
-    }
-}
